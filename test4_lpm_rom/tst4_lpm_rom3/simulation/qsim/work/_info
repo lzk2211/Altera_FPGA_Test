@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst4_lpm_rom3\simulation\qsim
+vaa
+Z1 !s100 Rljif^4l7WGb6[]R46Lb01
+Z2 IT=6lLR=;49E7I0OZgV[m52
+Z3 VDSMR84A^l>D:WQAMWf8]h2
+Z4 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst4_lpm_rom3\simulation\qsim
+Z5 w1652683266
+Z6 8aa.vo
+Z7 Faa.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|aa.vo|
+Z10 o-work work -O0
+Z11 !s108 1652683267.289000
+Z12 !s107 aa.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vaa_vlg_check_tst
+Z13 !s100 UoZd[JEHUGOA<fh?g0Nce0
+Z14 I`QmQgJ:g@70QOnl:XoL[k1
+Z15 VmHS>VC_eZ?j7EUYkZ^RNc3
+R4
+Z16 w1652683265
+Z17 8aa.vwf.vt
+Z18 Faa.vwf.vt
+L0 57
+R8
+r1
+31
+Z19 !s108 1652683267.357000
+Z20 !s107 aa.vwf.vt|
+Z21 !s90 -work|work|aa.vwf.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vaa_vlg_sample_tst
+Z22 !s100 S4`QW=5^0I=GJEU[hf21G2
+Z23 Il_MnI9WN]Yl3nDWc2Fn;^2
+Z24 VdT3^hichX[L=zbf_OE5a^0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vaa_vlg_vec_tst
+Z25 !s100 cW^[UR3IamEKVoIa9@dGL0
+Z26 ImK^7VUHgd@=75YQP]X>Sa1
+Z27 VdPM94PDTEXedPdMkBDRJ;2
+R4
+R16
+R17
+R18
+Z28 L0 349
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vu_addr
+Z29 IC2f?89mjYiJFe_En`FmEc2
+Z30 Ve6gCnTWNf[WPEBHh]>6WG2
+R4
+Z31 w1652684261
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+!i10b 1
+Z32 !s100 3XVZZaF8zY8if[;4i^iD[0
+!s85 0
+Z33 !s108 1652684262.477000
+R12
+!s101 -O0
+vu_addr_vlg_check_tst
+!i10b 1
+!s100 o98K7eEG7a2YJbTPln]=71
+Ii`h`hlGzG8obGZFS0n`iF0
+V0aVXV0GEAzH_KM>DM9_;h0
+R4
+R31
+Z34 8Waveform.vwf.vt
+Z35 FWaveform.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z36 !s108 1652684262.554000
+Z37 !s107 Waveform.vwf.vt|
+Z38 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+vu_addr_vlg_sample_tst
+!i10b 1
+!s100 jfWIQJQIjVH_f>95C^L931
+I;KEH3_ChIjWR;ZFUg<aSZ1
+VGIP^gJzOD;S71f0AD912B3
+R4
+R31
+R34
+R35
+L0 29
+R8
+r1
+!s85 0
+31
+R36
+R37
+R38
+!s101 -O0
+R10
+vu_addr_vlg_vec_tst
+!i10b 1
+!s100 FQmQ50=oX8Hh=f;V=bJlm2
+IWdNhOcbG];Sl4aUCWZWcI1
+V`Q:LLXggPCg3An2>X_^e;3
+R4
+R31
+R34
+R35
+L0 241
+R8
+r1
+!s85 0
+31
+R36
+R37
+R38
+!s101 -O0
+R10

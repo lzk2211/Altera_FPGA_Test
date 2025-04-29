@@ -1,0 +1,41 @@
+
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:05>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:07>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:07>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:11>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:17>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:55:23>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 16 02PM:56:30>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
+
+E:/Field_Programable_Gate_Array/FPGA_text_final/tst4_lpm_rom3/lpm_rom0.vhd
+
+May 21 02PM:05:38>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted
