@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/Clock_Division.vhd
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/switch_scoure.vhd
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/count_add.vhd
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/smg_display.vhd
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/mea.bdf
+source_file = 1, E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_1/db/mea.cbx.xml
+source_file = 1, d:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/altera/13.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/altera/13.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/altera/13.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = switch_scoure
+instance = comp, \output~output\, output~output, switch_scoure, 1
+instance = comp, \sys_clk~input\, sys_clk~input, switch_scoure, 1
+instance = comp, \test_clk~input\, test_clk~input, switch_scoure, 1
+instance = comp, \key~input\, key~input, switch_scoure, 1
+instance = comp, \output~0\, output~0, switch_scoure, 1

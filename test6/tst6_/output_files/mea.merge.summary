@@ -1,0 +1,14 @@
+Partition Merge Status : Successful - Mon May 02 19:14:31 2022
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : mea
+Top-level Entity Name : mea
+Family : Cyclone IV E
+Total logic elements : 9,853 / 10,320 ( 95 % )
+    Total combinational functions : 9,688 / 10,320 ( 94 % )
+    Dedicated logic registers : 429 / 10,320 ( 4 % )
+Total registers : 429
+Total pins : 15 / 180 ( 8 % )
+Total virtual pins : 0
+Total memory bits : 128 / 423,936 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

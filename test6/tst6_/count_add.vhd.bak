@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+entity count_add is
+port(clk_2s: in std_logic;
+	  rst: in std_logic;
+	  scoure: in std_logic;
+	  num: out std_logic_vector(27 downto 0)
+	  );
+end;
+
+architecture behav of count_add is
+signal N: integer 0 to 99999999 := 0;
+
+begin
+	process(clk_2s, scoure)
+	begin
+		if clk_2s = '1' then
+			if scoure' event and scoure = '1' then
+				N <= N + 1;
+			end if;
+		end if;
+	end process;
+end;

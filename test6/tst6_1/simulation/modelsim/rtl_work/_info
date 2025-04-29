@@ -1,0 +1,153 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst6_\simulation\modelsim
+Eclock_division
+Z1 w1651491770
+Z2 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst6_\simulation\modelsim
+Z7 8E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/Clock_Division.vhd
+Z8 FE:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/Clock_Division.vhd
+l0
+L5
+VLLVA=RjDMH`U43j54[J7K0
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1651543043.262000
+Z11 !s90 -reportprogress|300|-93|-work|work|E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/Clock_Division.vhd|
+Z12 !s107 E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/Clock_Division.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 eEDYT@7Y:WNf7zKWMg=li2
+!i10b 1
+Abehav
+R2
+R3
+R4
+R5
+DEx4 work 14 clock_division 0 22 LLVA=RjDMH`U43j54[J7K0
+l13
+L12
+VeSeQUJP>NCUElInjaf13n2
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 N[ZkClhTg956PnImmdhT]2
+!i10b 1
+Ecount_add
+Z15 w1651491792
+R2
+R4
+R5
+R6
+Z16 8E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/count_add.vhd
+Z17 FE:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/count_add.vhd
+l0
+L5
+V@]S]1k>_SM]YUO8_>LIn>2
+R9
+31
+Z18 !s108 1651543043.422000
+Z19 !s90 -reportprogress|300|-93|-work|work|E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/count_add.vhd|
+Z20 !s107 E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/count_add.vhd|
+R13
+R14
+!s100 f;jg?Ka@>IZGlZaBl^c7^2
+!i10b 1
+Abehav
+R2
+R4
+R5
+DEx4 work 9 count_add 0 22 @]S]1k>_SM]YUO8_>LIn>2
+l16
+L14
+VPI0B6;O^;zK^VEfh_2?3d2
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 f4DSHjhkh_5[jCUZliU752
+!i10b 1
+Esmg_display
+Z21 w1651489125
+R2
+R4
+R5
+R6
+Z22 8E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/smg_display.vhd
+Z23 FE:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/smg_display.vhd
+l0
+L5
+V9@KiobYH;RG8<Ie:O13042
+!s100 >;:V2_mZEfYf0:WUOF2Ud3
+R9
+31
+!i10b 1
+Z24 !s108 1651543043.510000
+Z25 !s90 -reportprogress|300|-93|-work|work|E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/smg_display.vhd|
+Z26 !s107 E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/smg_display.vhd|
+R13
+R14
+Abehav
+R2
+R4
+R5
+DEx4 work 11 smg_display 0 22 9@KiobYH;RG8<Ie:O13042
+l18
+L14
+VUekd5Hzb@N6FS<cQjTg5Y3
+!s100 BgGO;2boz>]O_X9m<>oCj0
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14
+Eswitch_scoure
+Z27 w1651484703
+R4
+R5
+R6
+Z28 8E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/switch_scoure.vhd
+Z29 FE:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/switch_scoure.vhd
+l0
+L4
+Vo3IZHX0bHBPZ680PDE4e40
+R9
+31
+Z30 !s108 1651543043.335000
+Z31 !s90 -reportprogress|300|-93|-work|work|E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/switch_scoure.vhd|
+Z32 !s107 E:/Field_Programable_Gate_Array/FPGA_text_final/tst6_/switch_scoure.vhd|
+R13
+R14
+!s100 >5D2SgKj[VTYVYYT5i;KT3
+!i10b 1
+Abehav
+R4
+R5
+DEx4 work 13 switch_scoure 0 22 o3IZHX0bHBPZ680PDE4e40
+l12
+L11
+V2XBRKICCnJ2IR>b3NkiNC1
+R9
+31
+R30
+R31
+R32
+R13
+R14
+!s100 Uc;c?=:JKLm[i<M?25z5U1
+!i10b 1

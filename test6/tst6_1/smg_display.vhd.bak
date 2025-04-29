@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity smg_display is
+port(clk: in std_logic;
+	  num: in std_logic_vector(27 downto 0);
+	  LED8s: out std_logic_vector(7 downto 0);
+	  SEL: out std_logic_vector(2 downto 0);
+	  );
+end;
+
+architecture behav of smg_display is
+type matrix_index is array (7 downto 0) of std_logic_vector(3 downto 0);
+signal display_num: matrix_index;
+begin
+	process(num)
+	begin
+		display_num(0) <= unsigned(num) rem 10;
+	end process;
+end;
