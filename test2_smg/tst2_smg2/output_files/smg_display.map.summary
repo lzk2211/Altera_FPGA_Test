@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Apr 23 14:07:16 2022
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : smg_display
+Top-level Entity Name : smg_display3
+Family : Cyclone IV E
+Total logic elements : 2,552
+    Total combinational functions : 2,253
+    Dedicated logic registers : 675
+Total registers : 675
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 32,768
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

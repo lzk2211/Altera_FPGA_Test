@@ -1,0 +1,16 @@
+Fitter Status : Successful - Sat May 21 13:59:12 2022
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : tst2
+Top-level Entity Name : tst2
+Family : Cyclone IV E
+Device : EP4CE40F23C8
+Timing Models : Final
+Total logic elements : 186 / 39,600 ( < 1 % )
+    Total combinational functions : 186 / 39,600 ( < 1 % )
+    Dedicated logic registers : 34 / 39,600 ( < 1 % )
+Total registers : 34
+Total pins : 17 / 329 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,161,216 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 232 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

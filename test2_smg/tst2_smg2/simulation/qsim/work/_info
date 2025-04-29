@@ -1,0 +1,233 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\FPGA_experiment\smg_display\simulation\qsim
+vsmg_display
+Z1 I7REQ>NXY]WV0`8`h0zLOe2
+Z2 VdTj]Eba^g50S<G=N>84jm3
+Z3 dE:\Field_Programable_Gate_Array\tst2_smg2\simulation\qsim
+Z4 w1649997606
+Z5 8smg_display.vo
+Z6 Fsmg_display.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|smg_display.vo|
+Z9 o-work work -O0
+Z10 !s100 LfmIjgz?Kf7IPI_JiITFD0
+Z11 !s108 1649997606.673000
+Z12 !s107 smg_display.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display1
+Z13 I]]K>6RmD3BTGBIdOT8IkF3
+Z14 VnkMVLk:4Xj[JD]WJhfho00
+R3
+Z15 w1650023024
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z16 !s100 Q=JX7YShbzo_E=Z62Sijc3
+Z17 !s108 1650023024.935000
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display1_vlg_check_tst
+Z18 !s100 9dPGm?h8<]G^=5L2?0JZB1
+Z19 IdDnQZBcV7^Lj9n4_FI0ES2
+Z20 V;0n:K5QTECC`=i5MA70991
+R3
+Z21 w1650023023
+Z22 8smg_display1.vwf.vt
+Z23 Fsmg_display1.vwf.vt
+L0 57
+R7
+r1
+31
+Z24 !s108 1650023025.008000
+Z25 !s107 smg_display1.vwf.vt|
+Z26 !s90 -work|work|smg_display1.vwf.vt|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display1_vlg_sample_tst
+Z27 !s100 V`42WlO2fg:3Zf@85K3Pd0
+Z28 IR?35>Q<5IVS0@5X80Xd3;1
+Z29 VP;WCSfUOJO`0F=o><H?d?3
+R3
+R21
+R22
+R23
+L0 29
+R7
+r1
+31
+R24
+R25
+R26
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display1_vlg_vec_tst
+Z30 !s100 N]89H@8afd?IK35GlQ@Wj0
+Z31 IJUhnFTNVnD:UJXF@lfaH01
+Z32 VZG3Jb2=Y?QFQbko2F`Ron2
+R3
+R21
+R22
+R23
+Z33 L0 398
+R7
+r1
+31
+R24
+R25
+R26
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display3
+Z34 I4BhFZm=Cm3^2gSM7H<1_C2
+Z35 V:3>Nk:b_6TXVXaQLgB]?M2
+R3
+Z36 w1650188875
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+!i10b 1
+Z37 !s100 e8>TOU^SO3V[M^lD@1R?I3
+!s85 0
+Z38 !s108 1650188875.845000
+R12
+!s101 -O0
+vsmg_display3_vlg_check_tst
+!i10b 1
+Z39 !s100 XSGh;iUB?jUHDb:5lYzX71
+Z40 I:FdUZ:Mo]k]aFE^JW8:KZ0
+Z41 VP;niUCg6<MH9E1I]c^ghE3
+R3
+Z42 w1650188874
+R22
+R23
+L0 57
+R7
+r1
+!s85 0
+31
+Z43 !s108 1650188876.033000
+Z44 !s107 smg_display1.vwf.vt|
+R26
+!s101 -O0
+R9
+vsmg_display3_vlg_sample_tst
+!i10b 1
+Z45 !s100 CQddJVaz:3^MLZ<WZMh[^2
+Z46 I57Rdl`CX6[0R_H>?62VSD1
+Z47 Vm9OUgjTkCY7J[NB?8IfHI0
+R3
+R42
+R22
+R23
+L0 29
+R7
+r1
+!s85 0
+31
+R43
+R44
+R26
+!s101 -O0
+R9
+vsmg_display3_vlg_vec_tst
+!i10b 1
+Z48 !s100 ozXi8]EYX7I^Dn7bZFNL03
+Z49 ILTO^_MiBYa7;`FD1]mO_T3
+Z50 VZTWjiee^e:@^mjb6A;VRe2
+R3
+R42
+R22
+R23
+Z51 L0 473
+R7
+r1
+!s85 0
+31
+R43
+R44
+R26
+!s101 -O0
+R9
+vsmg_display_vlg_check_tst
+Z52 !s100 HNke_a7ANFZN2ml9bQG[e1
+Z53 IJ@eYI>K9IEDgkMFflOSdO3
+Z54 VldKkTEnMA3M=IzcFH7f^60
+R3
+Z55 w1649997605
+Z56 8smg_display.vwf.vt
+Z57 Fsmg_display.vwf.vt
+L0 57
+R7
+r1
+31
+Z58 !s108 1649997606.889000
+Z59 !s107 smg_display.vwf.vt|
+Z60 !s90 -work|work|smg_display.vwf.vt|
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display_vlg_sample_tst
+Z61 !s100 jfGU=IIbL0P[>@AEoG8k]2
+Z62 I2;R`A0BzNJ>DaVWV1VV@03
+Z63 VoHaoT8M_f[OI;=Mb>dXmA3
+R3
+R55
+R56
+R57
+L0 29
+R7
+r1
+31
+R58
+R59
+R60
+R9
+!i10b 1
+!s85 0
+!s101 -O0
+vsmg_display_vlg_vec_tst
+Z64 !s100 iJ3ZJGo56`S6<9Z50zhO=3
+Z65 IEICfUmTldIX@`S0f]RWZb0
+Z66 Vg^UJob3Z6nD?Ti>akWZfK0
+R3
+R55
+R56
+R57
+Z67 L0 428
+R7
+r1
+31
+R58
+R59
+R60
+R9
+!i10b 1
+!s85 0
+!s101 -O0

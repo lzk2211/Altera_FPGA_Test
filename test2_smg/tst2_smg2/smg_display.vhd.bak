@@ -1,0 +1,37 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity smg_display is
+port(CLK: in std_logic;
+	  SEL: in std_logic_vector(2 downto 0);
+	  LED7s: in std_logic_vector(6 downto 0));
+end;
+
+architecture behav of smg_display is
+signal num: std_logic_vector(3 downto 0): = "0000";
+begin
+	process(CLK)
+	variable se: integer range 0 to 7;
+	begin
+		SEL <= se;
+		case num is
+			when "0000" => LED7s <= "0111111";--0
+			when "0001" => LED7s <= "0000110";--1
+			when "0010" => LED7s <= "1011011";--2
+			when "0011" => LED7s <= "1001111";--3
+			when "0100" => LED7s <= "1100110";--4
+			when "0101" => LED7s <= "1101101";--5
+			when "0110" => LED7s <= "1111101";--6
+			when "0111" => LED7s <= "0000111";--7
+			when "1000" => LED7s <= "1111111";--8
+			when "1001" => LED7s <= "1101111";--9
+			when others => LED7s <= "0000000";--灭
+		end case;
+		
+		if CLK' event and CLK = '1' then
+			se := se + 1;
+			num <= num + 1;
+		end if;
+		
+	end process;
+end;

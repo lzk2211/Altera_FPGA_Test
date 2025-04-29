@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon May 16 17:19:45 2022
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : smg_display
+Top-level Entity Name : smg_display
+Family : Cyclone IV E
+Device : EP4CE40F23C8
+Timing Models : Final
+Total logic elements : 1,129 / 39,600 ( 3 % )
+    Total combinational functions : 1,127 / 39,600 ( 3 % )
+    Dedicated logic registers : 35 / 39,600 ( < 1 % )
+Total registers : 35
+Total pins : 13 / 329 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 1,161,216 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 232 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

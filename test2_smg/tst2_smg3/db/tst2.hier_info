@@ -1,0 +1,83 @@
+|tst2
+count[0] <= cnt_time:cnt.count_sec[0]
+count[1] <= cnt_time:cnt.count_sec[1]
+count[2] <= cnt_time:cnt.count_sec[2]
+count[3] <= cnt_time:cnt.count_sec[3]
+rst => cnt_time:cnt.nreset
+sys_clk => Clock_Division:inst.CLK
+LED8s[0] <= cnt_time:cnt.LED8s[0]
+LED8s[1] <= cnt_time:cnt.LED8s[1]
+LED8s[2] <= cnt_time:cnt.LED8s[2]
+LED8s[3] <= cnt_time:cnt.LED8s[3]
+LED8s[4] <= cnt_time:cnt.LED8s[4]
+LED8s[5] <= cnt_time:cnt.LED8s[5]
+LED8s[6] <= cnt_time:cnt.LED8s[6]
+LED8s[7] <= cnt_time:cnt.LED8s[7]
+SEL[0] <= cnt_time:cnt.SEL[0]
+SEL[1] <= cnt_time:cnt.SEL[1]
+SEL[2] <= cnt_time:cnt.SEL[2]
+
+
+|tst2|cnt_time:cnt
+nreset => SE[0].PRESET
+nreset => SE[1].PRESET
+nreset => SE[2].PRESET
+nreset => count[0].ACLR
+nreset => count[1].ACLR
+nreset => count[2].ACLR
+nreset => count[3].ACLR
+clk => SE[0].CLK
+clk => SE[1].CLK
+clk => SE[2].CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+count_sec[0] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+count_sec[1] <= count[1].DB_MAX_OUTPUT_PORT_TYPE
+count_sec[2] <= count[2].DB_MAX_OUTPUT_PORT_TYPE
+count_sec[3] <= count[3].DB_MAX_OUTPUT_PORT_TYPE
+LED8s[0] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[1] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[2] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[3] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[4] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[5] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[6] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[7] <= <GND>
+SEL[0] <= SE[0].DB_MAX_OUTPUT_PORT_TYPE
+SEL[1] <= SE[1].DB_MAX_OUTPUT_PORT_TYPE
+SEL[2] <= SE[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tst2|Clock_Division:inst
+CLK => CLK_1s~reg0.CLK
+CLK => tmp1[0].CLK
+CLK => tmp1[1].CLK
+CLK => tmp1[2].CLK
+CLK => tmp1[3].CLK
+CLK => tmp1[4].CLK
+CLK => tmp1[5].CLK
+CLK => tmp1[6].CLK
+CLK => tmp1[7].CLK
+CLK => tmp1[8].CLK
+CLK => tmp1[9].CLK
+CLK => tmp1[10].CLK
+CLK => tmp1[11].CLK
+CLK => tmp1[12].CLK
+CLK => tmp1[13].CLK
+CLK => tmp1[14].CLK
+CLK => tmp1[15].CLK
+CLK => tmp1[16].CLK
+CLK => tmp1[17].CLK
+CLK => tmp1[18].CLK
+CLK => tmp1[19].CLK
+CLK => tmp1[20].CLK
+CLK => tmp1[21].CLK
+CLK => tmp1[22].CLK
+CLK => tmp1[23].CLK
+CLK => tmp1[24].CLK
+CLK => tmp1[25].CLK
+CLK_1s <= CLK_1s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
