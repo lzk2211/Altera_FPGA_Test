@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_arith.all;
+
+entity switch is
+port(key: in std_logic_vector(6 downto 0);
+	  count: out std_logic_vector(3 downto 0);
+	  led: out std_logic
+	  );
+end;
+
+architecture behav of switch is
+begin
+	process(key)
+	variable yes: integer range 0 to 7 := 0;
+	begin
+		yes := 0;
+		for n in 0 to 6 loop
+			if key(n) = '1' then
+				yes := yes + 1;
+			end if;
+		end loop;
+		
+		count <= conv_std_logic_vector(yes, 4);
+		if yes >= 4 then
+			led <= '1';
+		else
+			led <= '0';
+		end if;
+	end process;
+end;

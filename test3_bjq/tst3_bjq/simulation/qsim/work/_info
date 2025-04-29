@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Field_Programable_Gate_Array\tst3_bjq\simulation\qsim
+vbjq
+Z1 !s100 OaoUJ16T>mYOj2N]N27md0
+Z2 IID26^29W`CchnmZh<hHO;3
+Z3 VhIhGTj[oO0H0ZJL2f1bhm3
+Z4 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst3_bjq\simulation\qsim
+Z5 w1652693796
+Z6 8bjq.vo
+Z7 Fbjq.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|bjq.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1652693796.669000
+Z12 !s107 bjq.vo|
+!s101 -O0
+vbjq_vlg_check_tst
+Z13 !s100 6e]MOQSiT0SFHb>On@hPX1
+Z14 IZ428_]XfCOoEEU1bM=OgZ0
+Z15 Vgk:U[8dKA[Z`gCdKJ?lHC2
+R4
+Z16 w1652320956
+Z17 8bjq.vwf.vt
+Z18 Fbjq.vwf.vt
+L0 59
+R8
+r1
+31
+Z19 !s108 1652320958.855000
+Z20 !s107 bjq.vwf.vt|
+Z21 !s90 -work|work|bjq.vwf.vt|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vbjq_vlg_sample_tst
+Z22 !s100 m93nn4cFe?^Xc>lI[cz`03
+Z23 IGoc=;WK57eVIjZ4flEbMF3
+Z24 VR0B[9QoAm>aXH6aN3hkUD0
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+31
+R19
+R20
+R21
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vbjq_vlg_vec_tst
+!i10b 1
+!s100 NzC7M40@TOE7>TNcB9bj71
+ImjZSYIzXWk8XkmAfo;bg52
+Z25 V9`c3B2;dAZ:nIcWcb5HLj1
+R4
+w1652693795
+8tst1_38.vwf.vt
+Ftst1_38.vwf.vt
+L0 29
+R8
+r1
+!s85 0
+31
+!s108 1652693796.824000
+!s107 tst1_38.vwf.vt|
+!s90 -work|work|tst1_38.vwf.vt|
+!s101 -O0
+R10
