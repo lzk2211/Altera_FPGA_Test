@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst5_traffic2\simulation\qsim
+vcount
+Z1 !s100 l2oa:nUhkVjFFFl:1W`UP0
+Z2 IC=k3^nCT:NHf8:@?oPPn<3
+Z3 V9:DPfM0^5AVR;`Tl2[8`n2
+Z4 dE:\Field_Programable_Gate_Array\FPGA_text_final\tst5_traffic2\simulation\qsim
+Z5 w1652685785
+Z6 8traffic.vo
+Z7 Ftraffic.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|traffic.vo|
+Z10 o-work work -O0
+Z11 !s108 1652685785.708000
+Z12 !s107 traffic.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vcount_vlg_check_tst
+Z13 IdgNgUcGD8:gW?;MHDd<En1
+Z14 VnHj1_YX9MfleMR=Dm@?Z[0
+R4
+Z15 w1652685784
+Z16 81.vwf.vt
+Z17 F1.vwf.vt
+L0 61
+R8
+r1
+31
+Z18 !s108 1652685785.784000
+Z19 !s107 1.vwf.vt|
+Z20 !s90 -work|work|1.vwf.vt|
+R10
+Z21 !s100 ?R1Oi[NeUjB16d:?^A6E12
+!i10b 1
+!s85 0
+!s101 -O0
+vcount_vlg_sample_tst
+Z22 I@DE1mbQXB9k9:EJl=Cj1J3
+Z23 V=<ld3j3V5WF[TP6DT=MS:2
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+31
+R18
+R19
+R20
+R10
+Z24 !s100 o^AEDP62HBbz=IEm7ko=K1
+!i10b 1
+!s85 0
+!s101 -O0
+vcount_vlg_vec_tst
+Z25 I=jEDHkfDFkGhS3?E@4^oG1
+Z26 V@dzej@:2z^eK5dM3?zWA=0
+R4
+R15
+R16
+R17
+Z27 L0 301
+R8
+r1
+31
+R18
+R19
+R20
+R10
+Z28 !s100 b[z;gXzSI4b7iFDFC7Y`m2
+!i10b 1
+!s85 0
+!s101 -O0
+vtraffic
+Z29 !s100 gz^b2lm:eghd^G8kXX;Fl0
+Z30 I3<GY>P=WzBEXmz[]Xg>7d1
+Z31 V?=OW6hiUVm=`5><EkG`M:0
+R4
+Z32 w1652685932
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+!i10b 1
+!s85 0
+Z33 !s108 1652685933.214000
+R12
+!s101 -O0
+vtraffic_vlg_check_tst
+!i10b 1
+Z34 !s100 :JR2;W5:XfU`c_5a@cbl>1
+Z35 I?C35m_XQeXBD1zI3hj;C=3
+Z36 VXP5UKc5l`:AkQ[TzR=dWZ1
+R4
+Z37 w1652685931
+R16
+R17
+L0 63
+R8
+r1
+!s85 0
+31
+Z38 !s108 1652685933.282000
+Z39 !s107 1.vwf.vt|
+R20
+!s101 -O0
+R10
+vtraffic_vlg_sample_tst
+!i10b 1
+Z40 !s100 ;ZnI7kS6MD11Y]6Z2MS]K3
+Z41 Iz4E_U5=?Dk]6_L>RWdYB13
+Z42 VTZ?[Q@@d<K@I>o?cACn4[1
+R4
+R37
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R38
+R39
+R20
+!s101 -O0
+R10
+vtraffic_vlg_vec_tst
+!i10b 1
+Z43 !s100 MfoD_Y6^VDae;^Ee<IQ]L1
+Z44 IfU5I1?Zji`RgWKB[zX>VB2
+Z45 V9[ZV5C9OKHjZVTJLcbK<d2
+R4
+R37
+R16
+R17
+Z46 L0 587
+R8
+r1
+!s85 0
+31
+R38
+R39
+R20
+!s101 -O0
+R10

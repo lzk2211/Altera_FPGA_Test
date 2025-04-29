@@ -1,0 +1,134 @@
+|traffic
+R1 <= count:inst4.R1
+sys_clk => Clock_Division:inst.CLK
+RST => count:inst4.rst
+R2 <= count:inst4.R2
+Y1 <= count:inst4.Y1
+Y2 <= count:inst4.Y2
+G1 <= count:inst4.G1
+G2 <= count:inst4.G2
+LED8s[0] <= smg_display:inst2.LED8s[0]
+LED8s[1] <= smg_display:inst2.LED8s[1]
+LED8s[2] <= smg_display:inst2.LED8s[2]
+LED8s[3] <= smg_display:inst2.LED8s[3]
+LED8s[4] <= smg_display:inst2.LED8s[4]
+LED8s[5] <= smg_display:inst2.LED8s[5]
+LED8s[6] <= smg_display:inst2.LED8s[6]
+LED8s[7] <= smg_display:inst2.LED8s[7]
+LED_display[0] <= smg_display:inst2.LED_disp[0]
+LED_display[1] <= smg_display:inst2.LED_disp[1]
+LED_display[2] <= smg_display:inst2.LED_disp[2]
+LED_display[3] <= smg_display:inst2.LED_disp[3]
+SEL[0] <= smg_display:inst2.SEL[0]
+SEL[1] <= smg_display:inst2.SEL[1]
+SEL[2] <= smg_display:inst2.SEL[2]
+
+
+|traffic|count:inst4
+clk => dir.CLK
+clk => SEC_L[0]~reg0.CLK
+clk => SEC_L[1]~reg0.CLK
+clk => SEC_L[2]~reg0.CLK
+clk => SEC_L[3]~reg0.CLK
+clk => SEC_H[0]~reg0.CLK
+clk => SEC_H[1]~reg0.CLK
+clk => SEC_H[2]~reg0.CLK
+clk => SEC_H[3]~reg0.CLK
+clk_2s => Y1.DATAB
+clk_2s => Y2.DATAA
+rst => SEC_L[0]~reg0.ACLR
+rst => SEC_L[1]~reg0.ACLR
+rst => SEC_L[2]~reg0.ACLR
+rst => SEC_L[3]~reg0.ACLR
+rst => SEC_H[0]~reg0.ACLR
+rst => SEC_H[1]~reg0.PRESET
+rst => SEC_H[2]~reg0.ACLR
+rst => SEC_H[3]~reg0.ACLR
+rst => R1.OUTPUTSELECT
+rst => R2.OUTPUTSELECT
+rst => G1.OUTPUTSELECT
+rst => G2.OUTPUTSELECT
+rst => Y1.OUTPUTSELECT
+rst => Y2.OUTPUTSELECT
+rst => dir.ENA
+R1 <= R1.DB_MAX_OUTPUT_PORT_TYPE
+R2 <= R2.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+G1 <= G1.DB_MAX_OUTPUT_PORT_TYPE
+G2 <= G2.DB_MAX_OUTPUT_PORT_TYPE
+SEC_H[0] <= SEC_H[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_H[1] <= SEC_H[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_H[2] <= SEC_H[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_H[3] <= SEC_H[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_L[0] <= SEC_L[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_L[1] <= SEC_L[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_L[2] <= SEC_L[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SEC_L[3] <= SEC_L[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|Clock_Division:inst
+CLK => CLK_ms~reg0.CLK
+CLK => CLK_1s~reg0.CLK
+CLK => CLK_2s~reg0.CLK
+CLK => tmp[0].CLK
+CLK => tmp[1].CLK
+CLK => tmp[2].CLK
+CLK => tmp[3].CLK
+CLK => tmp[4].CLK
+CLK => tmp[5].CLK
+CLK => tmp[6].CLK
+CLK => tmp[7].CLK
+CLK => tmp[8].CLK
+CLK => tmp[9].CLK
+CLK => tmp[10].CLK
+CLK => tmp[11].CLK
+CLK => tmp[12].CLK
+CLK => tmp[13].CLK
+CLK => tmp[14].CLK
+CLK => tmp[15].CLK
+CLK => tmp[16].CLK
+CLK => tmp[17].CLK
+CLK => tmp[18].CLK
+CLK => tmp[19].CLK
+CLK => tmp[20].CLK
+CLK => tmp[21].CLK
+CLK => tmp[22].CLK
+CLK => tmp[23].CLK
+CLK => tmp[24].CLK
+CLK => tmp[25].CLK
+CLK => tmp[26].CLK
+CLK_ms <= CLK_ms~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK_1s <= CLK_1s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CLK_2s <= CLK_2s~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|traffic|smg_display:inst2
+CLK => SE[0].CLK
+CLK => SE[1].CLK
+CLK => SE[2].CLK
+SEC_H[0] => Mux3.IN7
+SEC_H[1] => Mux2.IN7
+SEC_H[2] => Mux1.IN7
+SEC_H[3] => Mux0.IN7
+SEC_L[0] => Mux3.IN6
+SEC_L[1] => Mux2.IN6
+SEC_L[2] => Mux1.IN6
+SEC_L[3] => Mux0.IN6
+LED_disp[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+LED_disp[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+LED_disp[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+LED_disp[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[0] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[1] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[2] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[3] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[4] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[5] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[6] <= LED8s.DB_MAX_OUTPUT_PORT_TYPE
+LED8s[7] <= <GND>
+SEL[0] <= SE[0].DB_MAX_OUTPUT_PORT_TYPE
+SEL[1] <= SE[1].DB_MAX_OUTPUT_PORT_TYPE
+SEL[2] <= SE[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
